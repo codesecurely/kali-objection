@@ -1,0 +1,15 @@
+nano
+wget
+curl
+net-tools
+build-essential
+iputils-ping
+pciutils
+bash-completion
+python3-pip
+adb
+unzip
+zipalign
+usbutils
+aapt
+default-jdk
