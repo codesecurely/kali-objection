@@ -7,7 +7,6 @@ iputils-ping
 pciutils
 bash-completion
 python3-pip
-adb
 unzip
 zipalign
 usbutils

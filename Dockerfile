@@ -11,6 +11,7 @@ WORKDIR /opt
 RUN wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip && \
    unzip platform-tools-latest-linux.zip && \
    rm -rf platform-tools-latest-linux.zip && \
+   mv platform-tools/adb /usr/local/bin/adb && \
    pip3 install objection && \
    wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool && \
    wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.5.0.jar -O /usr/local/bin/apktool.jar && \
