@@ -12,3 +12,4 @@ zipalign
 usbutils
 aapt
 default-jdk
+apksigner
