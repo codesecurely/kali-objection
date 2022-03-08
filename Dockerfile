@@ -17,4 +17,6 @@ RUN wget https://dl.google.com/android/repository/platform-tools-latest-linux.zi
    wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.5.0.jar -O /usr/local/bin/apktool.jar && \
    chmod +x /usr/local/bin/apktool /usr/local/bin/apktool.jar
 
+WORKDIR /data
+
 CMD ["/bin/bash"]
